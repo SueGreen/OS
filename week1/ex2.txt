@@ -1,0 +1,92 @@
+    1  whoami
+    2  who
+    3  w
+    4  mkdir ~/week1
+    5  cd ~/week1
+    6  gcc
+    7  sudo apt install gcc
+    8  sudo apt-get update
+    9  sudo apt install gcc
+   10  mkdir ~/week1
+   11  cd usr/bin
+   12  grep gcc .
+   13  ls .
+   14  ls /usr/bin
+   15  grep gcc usr/bin
+   16  ls -r *gcc*
+   17  cd /usr/bin; ls -r *gcc*
+   18  cd /usr/bin; ls -r *gcc* > ~/week1/ex1.txt
+   19  grep gcc /usr/bin
+   20  git init
+   21  cd ~
+   22  git init
+   23  git add 
+   24  git add .txt
+   25  git add *.txt
+   26  git commit -m 'initial commit'
+   27  git config --global user.name "suegreen"
+   28  git commit -m 'initial commit'
+   29  git config --global user.email suz.tabaeva@gmail.com
+   30  git commit -m 'initial commit'
+   31  git push
+   32  git commit 
+   33  cd week1
+   34  cd ~
+   35  git add week1
+   36  git status
+   37  ls
+   38  git log
+   39  git config --global user.email suz.tabaeva@yandex.ru
+   40  git remote add origin https://github.com/SueGreen/OS.git
+   41  git push -u origin master
+   42  git global
+   43  git config --global user
+   44  git config
+   45  git config --global user.name
+   46  git config --global user.email4
+   47  git config --global user.email
+   48  git config --global user.name SueGreen
+   49  git config --global user.name
+   50  git push -u origin master
+   51  cd ~
+   52  gedit ~/week1/main.c
+   53  sudo apt install gedit
+   54  gedit ~/week1/main.c
+   55  nano ~/week1/main.c
+   56  ls
+   57  cd ./week1
+   58  cat main.c
+   59  ..
+   60  cd ..
+   61  git commit -m 'forth task'
+   62  git push -u origin master
+   63  git add ~/week1
+   64  git commit -m 'forth task'
+   65  git push -u origin master
+   66  #!/bin/sh
+   67  date
+   68  nano ~/week1/ex3.sh
+   69  ~/week1/ex3.sh
+   70  sh ex3.sh
+   71  cd ~/week1
+   72  sh ex3.sh
+   73  cd ..
+   74  git add ex3.sh
+   75  git add ~/week1
+   76  git commit -m 'third task'
+   77  git push -u origin master
+   78  mkdir ~/week1
+   79  cd ~/week1
+   80  whoami
+   81  ls
+   82  ls -l
+   83  ls I
+   84  users
+   85  who
+   86  w
+   87  ls *.txt
+   88  ls -a
+   89  cat ex1.txt
+   90  cat main.c
+   91  wc ex3.sh
+   92  history>ex2.txt
