@@ -1,1 +1,2 @@
-
+The sequence of sorted values will result in increased hit/miss ratio, because we will be searching for the same page many times in a row, and it will be in the page table. Ideally it will be the sequence of repeating value that will give maximum ratio hit/miss.
+The sequence of distinct values will result in decrease hit/miss ratio.
