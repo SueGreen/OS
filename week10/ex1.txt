@@ -1,3 +1,12 @@
+COMMANDS:
+mkdir week10
+cd week10
+nano _ex1.txt
+ln _ex1.txt _ex1_1.txt
+ln _ex1.txt _ex1_2.txt
+ls -i _ex1.txt _ex1_1.txt _ex1_2.txt > ex1.txt
+
+OUTPUT of the file ex1.txt:
 1688849860462092 _ex1.txt
 1688849860462092 _ex1_1.txt
 1688849860462092 _ex1_2.txt
