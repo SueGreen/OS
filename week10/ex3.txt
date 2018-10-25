@@ -1,0 +1,19 @@
+the COMMANDS:
+chmod a-x _ex3.txt
+ls -l _ex3.txt >> ex3.txt
+chmod uo=rwx _ex3.txt
+ls -l _ex3.txt >> ex3.txt
+chmod g=u _ex3.txt
+ls -l _ex3.txt >> ex3.txt
+
+OUTPUT of the file:
+---------- 1 suegreen suegreen 28 Oct 24 17:06 _ex3.txt
+-rwxrw-rwx 1 suegreen suegreen 28 Oct 24 17:06 _ex3.txt
+-rwxrwxrwx 1 suegreen suegreen 28 Oct 24 17:06 _ex3.txt
+
+ANSWER to the question:
+Each number is the sum of values that specify read (4), write (2), and execute (1) access, with 0 (zero) meaning no access.(according to https://kb.iu.edu/d/abdb)
+So:
+660 - read and write permissions for user and group
+775 - read, write and execute permissons for user and group, read and execute for others
+777 - read, write and execute permissions for all
