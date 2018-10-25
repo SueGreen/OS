@@ -1,10 +1,14 @@
 COMMANDS:
-mkdir week10
+mkdir week01
+cd week01
+nano file.txt
+cd ..
 cd week10
-nano _ex1.txt
-ln _ex1.txt _ex1_1.txt
-ln _ex1.txt _ex1_2.txt
-ls -i _ex1.txt _ex1_1.txt _ex1_2.txt > ex1.txt
+link ~/week01/file.txt _ex2.txt
+ls -i file.txt
+ls -i _ex2.txt
+find -inum 2251799813883413 > ex2.txt
+find ~/week10 -inum 2251799813883413 -exec rm {} \; >> ex2.txt
 
 
 OUTPUT of the file ex2.txt:
