@@ -1,0 +1,9 @@
+The first program outputs a string "Hello" and goes to next line (does this seqence of steps twice)
+The second program outputs a string "Hello". Then it goes to the next line twice.
+
+Explanation:
+Due to line buffering of stdout, printf prints string only after \n or when the buffer is full.
+In the first case both processes have "Hello" in the buffers after fork(). When printf() is called, it prints
+  the contents of the buffers (now "Hello\n").
+In the second case before fork() is called and after printf("Hello\n"), parent's buffer empties.
+  So, after forking, the buffers of both processes are empty and printf("\n") prints only "\n"
