@@ -19,7 +19,7 @@ int main(void) {
     
     ftruncate(file2, file1_size);
     char *map2 = mmap(0, (size_t) file1_size, PROT_READ | PROT_WRITE | PROT_EXEC, MAP_SHARED, file2, 0);
-    memcpy(map1, map2, (size_t) file1_size);
+    memcpy(map2, map1, (size_t) file1_size);
     close(file1);
     close(file2);
     return 0;
